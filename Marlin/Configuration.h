@@ -493,9 +493,9 @@
   //#define DEFAULT_Ki 1.54
   //#define DEFAULT_Kd 76.55
   // Calibrated:
-  #define DEFAULT_Kp 24.14 //changed 20200117 per pid autotune
-  #define DEFAULT_Ki 2.23 //changed 20200117 per pid autotune
-  #define DEFAULT_Kd 65.31 //changed 20200117 per pid autotune
+  #define DEFAULT_Kp 28.34
+  #define DEFAULT_Ki 2.77
+  #define DEFAULT_Kd 72.55
   // Ultimaker
   //#define DEFAULT_Kp 22.2
   //#define DEFAULT_Ki 1.08
@@ -548,9 +548,14 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 10.00
-  #define DEFAULT_bedKi .023
-  #define DEFAULT_bedKd 305.4
+  //#define DEFAULT_bedKp 10.00
+  //#define DEFAULT_bedKi .023
+  //#define DEFAULT_bedKd 305.4
+
+
+  #define DEFAULT_bedKp 140.21
+  #define DEFAULT_bedKi 25.13
+  #define DEFAULT_bedKd 521.64
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
