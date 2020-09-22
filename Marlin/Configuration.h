@@ -1006,7 +1006,8 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
- #define NOZZLE_TO_PROBE_OFFSET { -48.6, -12.0, 0 }
+ //#define NOZZLE_TO_PROBE_OFFSET { -48.6, -12.0, 0 } // Original settings with BL touch
+ #define NOZZLE_TO_PROBE_OFFSET { -60, -13, 0 } //Hero 5 mount}
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
